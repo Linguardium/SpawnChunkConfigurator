@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "spawnchunks",
+  "version": "${version}",
+  "name": "SpawnChunkConfigurator",
+  "description": "Configure Spawn Chunk range",
+  "authors": [
+    "Linguardium"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/spawnchunks/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "mod.linguardium.spawnchunks.Main"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "spawnchunks.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  }
+}

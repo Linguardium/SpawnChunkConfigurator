@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "mod.linguardium.spawnchunks.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "IntegerGameRuleAccessor",
+    "RegisterGameRule",
+    "ServerChunkManagerMixin"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
